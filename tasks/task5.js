@@ -3,7 +3,7 @@
 
 
 function countOccurrences(str, char) {
-  //Ваш код
+  return str.split('').filter(c => c === char).length;
 }
 
 // Приклади використання:

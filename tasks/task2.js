@@ -4,7 +4,7 @@
 function reverseWithoutNumbers(str) {
   return str
     .split('')
-    .filter(char => !/\d/.test(char))
+    .filter(char => isNaN(char))
     .reverse()
     .join('');
 }

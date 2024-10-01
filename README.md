@@ -15,4 +15,4 @@ git clone <url репозиторію>
 git add . git commit -m "Рішення задач" git push origin main
 5. Відправте Pull Request до оригінального репозиторію.
 
-Удачі!
+Успіхів!
